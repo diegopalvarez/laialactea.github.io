@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+	<head>
+		<meta charset="utf-8">
+		<title>MB: El surgimiento de la IA</title>
+		<link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link rel="stylesheet" href="../css/demo01-css-v3.css">
+	</head>
+	
+	<body>
+		<header>
+			<img class="logo" src="../imagenes/logo.png">		
+		</header>
+			
+		<nav>
+			<ul>
+				<a href="../index.html"><li><span class="material-symbols-rounded">home</span>Principal</li></a>
+				<a href="about.html"><li><span class="material-symbols-rounded">person</span>Sobre mí</li></a>
+				<li class="dropdown">
+						<div class="main-option">
+							<span class="material-symbols-rounded">email</span>Contacto
+						</div>
+						<a href="contact-general.html"><div class="option">General</div></a>
+						<a href="contact-empleo.html"><div class="option">Empleo</div></a>
+					</div>
+				</li>
+			</ul>
+		</nav>
+			
+		<main>
+			<div id="columna_central">
+				<h1 id="top">Empleo</h1>
+				<div class="contact">					
+					<div id="contact-text">
+						<p>¡Estamos buscando gente que se una a nuestro equipo! Si te gusta la tecnología y tienes experiencia como escritor, este es tu lugar. Ser parte de uno de los mejores blogs sobre Inteligencia Artificial está a pocos <i>clicks</i> de distancia.</p>
+						<p>Selecciona el puesto al que quieres presentarte, cubre tus datos personales y te avisaremos de nuestra decisión en de 1 a 2 semanas. ¡Te estamos esperando!</p>
+					</div>
+					
+					<form action="" method="get" class="general-form">
+						<div class="form-item">
+							<label class="form-title">Nombre y apellidos</label>
+							<input type="text" required placeholder="Diego Pérez Álvarez">
+						</div>
+						<div class="form-item">
+							<label class="form-title">Email</label>
+							<input type="email" required placeholder="minombre@correo.com">
+						</div>
+						
+						<div class="form-item">
+							<label class="form-title">Puesto</label>
+							<select id="puesto" required>
+								<option value="" disabled selected hidden>Selecciona una opción</option>
+								<option value="escritor">Escritor</option>
+								<option value="editor">Editor</option>
+								<option value="diseñador">Diseñador gráfico</option>
+							</select>
+						</div>
+						
+						<div class="form-item">
+							<label class="form-title">CV</label>
+							<input class="file" type="file" required>
+						</div>
+						
+						<div class="form-item">
+							<label class="form-title">Información adicional</label>
+							<textarea placeholder="Información adicional..." class="mensaje-adicional"></textarea>
+						</div>
+						
+						<input class="boton" type="submit" value="Enviar">
+						
+					</form>
+						
+					</div>					
+				</div>
+			</div>
+	
+			<aside>
+				<div id="aside-content">
+					<h3 class="aside-heading">Últimos articulos</h3>
+					<a href="articulo1.html"><div class="aside-article"><div class="aside-image"><img src="../imagenes/article1.jpg"></div><p>El surgimiento de la IA</p></div></a>
+					<a href="articulo2.html"><div class="aside-article"><div class="aside-image"><img src="https://www.publicdomainpictures.net/pictures/380000/nahled/kunstliche-intelligenz-1609185801yDJ.jpg"></div><p>La credibilidad de la IA</p></div></a>
+					<a href="articulo3.html"><div class="aside-article"><div class="aside-image"><img src="../imagenes/article-3.jpg"></div><p>La revolución contra la IA</p></div></a>
+				</div>
+				
+				<h3 class="aside-heading">Estamos contratando!</h3>
+					<div id="hiring-text">
+						<p>¿Te gusta el mundo de la Inteligencia Artificial y tienes experiencia como escritor?</p>
+						<p>Descubre <a href="about.html" class="inline-link">nuestra historia</a>, lee nuestros <a href="../index.html" class="inline-link">últimos artículos</a> o <a href="#top" class="inline-link">envíanos tu currículum</a> si quieres formar parte de nuestra familia.</p>
+					</div>
+			</aside>
+				
+		</main>
+		
+		<footer id="footer">
+			<p>&copy Este blog ha sido creado por Diego Pérez Álvarez en 2023</p>
+		</footer>
+		
+	</body>
+
+</html>
